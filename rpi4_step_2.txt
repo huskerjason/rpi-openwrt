@@ -1,7 +1,5 @@
 opkg update
 
-opkg remove luci
-
 opkg install luci-ssl-nginx
 opkg install openssh-sftp-server
 opkg install nano
