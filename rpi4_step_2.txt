@@ -3,6 +3,9 @@ opkg update
 opkg install luci-ssl-nginx
 opkg install openssh-sftp-server
 opkg install nano
+opkg install htop
+opkg install iftop
+opkg install tmux
 
 opkg install kmod-usb-net-rtl8152
 opkg install kmod-usb-net-asix-ax88179
