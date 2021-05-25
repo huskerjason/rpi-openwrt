@@ -1,6 +1,6 @@
-opkg update
-
 opkg remove luci
+
+opkg update
 
 opkg install luci-ssl-nginx
 opkg install openssh-sftp-server
