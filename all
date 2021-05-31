@@ -1,0 +1,22 @@
+opkg remove luci
+
+opkg update
+
+opkg install luci-ssl-nginx
+opkg install openssh-sftp-server
+opkg install nano
+
+opkg install kmod-usb-net-rtl8152
+opkg install kmod-usb-net-asix-ax88179
+
+opkg install openvpn-openssl
+opkg install luci-app-openvpn
+
+opkg install kmod-usb-storage
+opkg install block-mount
+opkg install samba4-server
+opkg install luci-app-samba4
+opkg install kmod-fs-ext4
+
+reboot
+
