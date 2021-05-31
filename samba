@@ -1,0 +1,10 @@
+opkg update
+
+opkg install kmod-usb-storage
+opkg install block-mount
+opkg install samba4-server
+opkg install luci-app-samba4
+opkg install kmod-fs-ext4
+
+reboot
+
