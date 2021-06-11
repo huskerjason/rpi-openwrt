@@ -18,5 +18,7 @@ opkg install samba4-server
 opkg install luci-app-samba4
 opkg install kmod-fs-ext4
 
+opkg install luci-app-statistics
+
 reboot
 
